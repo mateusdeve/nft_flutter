@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^4.2.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -61,6 +62,17 @@ flutter:
     - assets/images/galeryhome.png
     - assets/images/logo.png
     - assets/images/logo-text.png
+    - assets/images/logo-text-top.png
+    - assets/images/img-caroulse-1.png
+    - assets/images/img-caroulse-2.png
+    - assets/images/img-caroulse-3.png
+    - assets/images/img-caroulse-4.png
+    - assets/images/img-caroulse-5.png
+    - assets/images/img-caroulse-1-grande.png
+    - assets/images/img-caroulse-2-grande.png
+    - assets/images/img-caroulse-3-grande.png
+    - assets/images/img-caroulse-4-grande.png
+    - assets/images/img-caroulse-5-grande.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

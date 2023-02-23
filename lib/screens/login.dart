@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nft_flutter/components/buttonEntrar.dart';
 import 'package:nft_flutter/main.dart';
+import 'package:nft_flutter/screens/feed.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -24,7 +25,7 @@ class Login extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     labelText: 'Usuário',
-                    prefixIcon: Icon(Icons.person),
+                    prefixIcon: const Icon(Icons.person),
                     border: OutlineInputBorder(
                       borderSide: const BorderSide(
                         width: 1,
@@ -64,7 +65,7 @@ class Login extends StatelessWidget {
                     ),
                     onPressed: () => {}),
               ),
-              ButtonEntrar(const Home(), "Entrar", "primary"),
+              ButtonEntrar(Feed(), "Entrar", "primary"),
               Container(
                 width: 198,
                 alignment: Alignment.center,
